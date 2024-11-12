@@ -2,4 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.rounded-circle{
+    @apply rounded-full shadow-lg shadow-gray-600  p-3 flex justify-center items-center;
+}
