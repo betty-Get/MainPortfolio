@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-.rounded-circle{
-    @apply rounded-full shadow-lg shadow-gray-600  p-3 flex justify-center items-center;
+body {
+  background-color: #fffafa;
+}
+
+.roboto {
+  font-family: var(--font-roboto);
+}
+.playfairDisplay {
+  font-family: var(--font-playfair_display);
+}
+
+.rounded-circle {
+  @apply rounded-full shadow-lg shadow-gray-600  p-3 flex justify-center items-center;
 }

@@ -13,18 +13,18 @@ const Navbar = () => {
   return (
     <header className=" max-w-full ">
       <div className="h-16 flex justify-between items-center px-12 shadow-xl">
-        <h1>image</h1>
+        <h1 className="roboto font-semibold">image</h1>
         <div className="hidden md:flex">
-          <Link href={""} className="pr-6">
+          <Link href={""} className="pr-6 playfairDisplay">
             About
           </Link>
-          <Link href={""} className="pr-6">
+          <Link href={""} className="pr-6 playfairDisplay">
             Experience
           </Link>
-          <Link href={""} className="pr-6">
+          <Link href={""} className="pr-6 playfairDisplay">
             Projects
           </Link>
-          <Link href={""} className="pr-6">
+          <Link href={""} className="pr-6 playfairDisplay">
             Reach Out
           </Link>
         </div>
