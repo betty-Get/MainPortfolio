@@ -5,7 +5,7 @@ import { IoMdContact } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <section className="max-w-[60%] mx-auto text-center h-screen mt-32">
+    <section className="max-w-[60%] mx-auto text-center h-screen pt-44">
       <h1 className="text-4xl font-bold">Hi, I am Betty</h1>
       <div className="text-4xl font-bold"> A Front-End web developer</div>
       <p>I'm a front-end web developer and I make amazing websites.</p>
