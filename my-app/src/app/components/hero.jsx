@@ -5,10 +5,18 @@ import { IoMdContact } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <section className="max-w-[60%] mx-auto text-center h-screen pt-44">
-      <h1 className="text-4xl font-bold">Hi, I am Betty</h1>
-      <div className="text-4xl font-bold"> A Front-End web developer</div>
-      <p>I'm a front-end web developer and I make amazing websites.</p>
+    <section className="main_style text-center  pt-44">
+      <h1 className="text-xl sm:text-2xl md:text-4xl font-bold playfairDisplay">
+        Hi, I am{" "}
+        <span className="text-secondaryViolet playfairDisplay">Betty</span>
+      </h1>
+      <div className="text-2xl sm:text-3xl md:text-4xl font-bold sm:py-2 playfairDisplay">
+        {" "}
+        A Front-End web developer
+      </div>
+      <p className="roboto text-[14px] sm:text-[16px]">
+        I'm a front-end web developer and I make amazing websites.
+      </p>
       <div className="flex my-4 justify-center">
         <div className=" rounded-circle mr-5 min-[400px]:mr-8">
           <FaLinkedinIn />
