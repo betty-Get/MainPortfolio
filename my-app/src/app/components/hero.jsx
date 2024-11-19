@@ -5,7 +5,7 @@ import { IoMdContact } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <section className="main_style text-center  pt-44">
+    <section className="main_style text-center  pt-48">
       <h1 className="text-xl sm:text-2xl md:text-4xl font-bold playfairDisplay">
         Hi, I am{" "}
         <span className="text-secondaryViolet playfairDisplay">Betty</span>

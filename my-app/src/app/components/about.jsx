@@ -3,14 +3,21 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="main_style">
-      <h2 className="w-full text-center">Get to Know Me!</h2>
-      <div className="flex flex-col-reverse md:flex-row">
-        <div className="max-w-[50%]">
+    <section className="main_style py-16  md:h-screen">
+      <h2 className="w-full title ">
+        Get to Know Me!
+        <hr className="line"></hr>
+      </h2>
+
+      <div className="lg:w-[90%] flex flex-col-reverse md:flex-row gap-10 mx-auto mt-10">
+        <div className="md:max-w-[50%] roboto lg:my-5">
           <p>
             I graduated from Addis Ababa University in computer science. For me
             coding isn't just a theory, Its passion and solving real world
-            problems. I am very ambitios, driven and self motivated.
+            problems. I am very{" "}
+            <span className="text-secondaryViolet">
+              ambitios, driven and self motivated.
+            </span>
           </p>
           <br />
           <p>
@@ -20,18 +27,22 @@ const About = () => {
           </p>
           <br />
           <p>
-            I believe that you should never stop growing and thats what I strive
-            to do.I am very passionate about technology and desire to always
-            push the limits of whats possible. I am excited too see were my
-            career takes me and am always open to new opportunities.
+            I believe that you{" "}
+            <span className="text-secondaryViolet">
+              should never stop growing
+            </span>{" "}
+            and thats what I strive to do.I am very passionate about technology
+            and desire to always push the limits of whats possible. I am excited
+            too see were my career takes me and am always open to new
+            opportunities.
           </p>
         </div>
         <Image
           src={"/img.jpg"}
           width={300}
-          height={100}
+          height={50}
           alt=" balck women photo"
-          className=" "
+          className=" object-cover h-[350px] w-[300px] mx-auto"
         />
       </div>
     </section>
