@@ -30,3 +30,5 @@ export const skills = [
     text: "JavaScript",
   },
 ];
+
+// export const project

@@ -6,7 +6,7 @@ body {
   background-color: #fffafa;
 }
 .main_style {
-  @apply max-w-[90%] md:max-w-[80%] xl:max-w-[70%] mx-auto lg:h-screen;
+  @apply max-w-[90%] md:max-w-[85%]  mx-auto lg:h-screen;
 }
 .roboto {
   font-family: var(--font-roboto);
