@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="main_style py-16  md:h-screen">
+    <section className="main_style py-10 md:py-8">
       <h2 className="w-full title ">
         Get to Know Me!
         <hr className="line"></hr>

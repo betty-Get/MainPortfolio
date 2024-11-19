@@ -4,16 +4,18 @@ import Image from "next/image";
 
 const Skill = () => {
   return (
-    <section className="main_style pt-16">
+    <section className="main_style pt-10 md:pt-24">
       <h2 className="w-full title">
         What I can do
         <hr className="line"></hr>
       </h2>
 
-      <div className="flex flex-col lg:flex-row">
-        <div className="lg:w-1/2">
-          <h3>Exprience</h3>
-          <p className="max-w-[85%] roboto">
+      <div className="w-[90%] mx-auto flex flex-col md:flex-row gap-7 py-6 md:py-10">
+        <div className="md:w-1/2">
+          <h3 className="text-xl font-medium md:text-2xl roboto pb-1">
+            Exprience
+          </h3>
+          <p className="lg:max-w-[95%] roboto text-[14px] md:text-[16px]">
             "During my two internships, I had the chance to really develop my
             coding skills and build a solid foundation in programming. After
             that, I worked at Safaricom Ethiopia as a Quality Assurance
@@ -22,8 +24,10 @@ const Skill = () => {
             creating dynamic and user-friendly websites."
           </p>
         </div>
-        <div className="lg:w-1/2">
-          <h3>Skills</h3>
+        <div className="md:w-1/2">
+          <h3 className="text-xl font-medium md:text-2xl roboto pb-1">
+            Skills
+          </h3>
           <div className="flex flex-wrap gap-4">
             {skills.map((skill) => (
               <div
