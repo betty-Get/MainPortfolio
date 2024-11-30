@@ -6,7 +6,7 @@ body {
   background-color: #fffafa;
 }
 .main_style {
-  @apply max-w-[90%] md:max-w-[85%]  mx-auto lg:h-screen;
+  @apply max-w-[90%] md:max-w-[80%]  mx-auto md:h-screen;
 }
 .roboto {
   font-family: var(--font-roboto);
@@ -21,6 +21,12 @@ body {
 .title {
   @apply text-2xl md:text-3xl lg:text-4xl text-center playfairDisplay font-semibold;
 }
+.mini_title {
+  @apply text-lg md:text-xl lg:text-2xl roboto;
+}
 .line {
   @apply w-10 h-1 mx-auto my-2 bg-secondaryViolet rounded;
+}
+.inputFeild {
+  @apply border w-full min-[480px]:w-3/4 md:w-full xl:w-3/4 text-gray-900 text-sm rounded-md p-2 bg-violet-50 border-violet-200 focus:border-violet-700 focus:outline-none;
 }

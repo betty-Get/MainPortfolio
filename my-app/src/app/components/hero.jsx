@@ -10,7 +10,7 @@ const Hero = () => {
         Hi, I am{" "}
         <span className="text-secondaryViolet playfairDisplay">Betty</span>
       </h1>
-      <div className="text-2xl sm:text-3xl md:text-4xl font-bold sm:py-2 playfairDisplay">
+      <div className="text-2xl sm:text-3xl md:text-4xl font-bold sm:py-3 playfairDisplay">
         {" "}
         A Front-End web developer
       </div>
